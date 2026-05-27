@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery | Cape Vogel Conservation Initiative</title>
+
+  <meta name="description" content="Explore photos of conservation work, community life, and environmental projects across Cape Vogel Peninsula.">
+
+  <meta name="keywords" content="Cape Vogel photos, conservation PNG gallery, Papua New Guinea environment, community projects photos">
+
+  <meta name="author" content="Cape Vogel Conservation Initiative">
+
+  <meta property="og:title" content="Cape Vogel Photo Gallery">
+  <meta property="og:description" content="Moments from our conservation work and communities.">
+  <meta property="og:image" content="images/Garugaru 1.JPG">
+  <meta property="og:type" content="website">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Preload Hero Image -->
+  <link rel="preload" as="image" href="images/Garugaru 1.webp">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="images/CVCI.png">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header id="header">
+  <div class="container nav-wrapper">
+
+    <div class="logo">
+      <h2>Cape Vogel</h2>
+    </div>
+
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programmes.html">Programmes</a>
+
+      <div class="dropdown">
+        <a href="#">Pages</a>
+        <div class="dropdown-menu">
+          <a href="#">Video Gallery</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-btn">
+      <a href="contact.html" class="btn nav-cta">Contact</a>
+    </div>
+
+    <!-- MOBILE MENU BUTTON -->
+    <div class="menu-toggle" id="menu-toggle">
+       <span></span>
+       <span></span>
+       <span></span>
+    </div>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="images/Garugaru 1.webp" alt="Cape Vogel community conservation work" class="hero-img">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content" data-aos="fade-up">
+    <h1>Photo Gallery</h1>
+    <p>Moments from our work and communities</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section">
+  <div class="container">
+
+    <h2 class="center" data-aos="fade-up">Our Gallery</h2>
+
+    <div id="gallery" class="gallery-grid">
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container" data-aos="fade-up">
+    <h2>Be Part of Our Story</h2>
+    <p>Join us in protecting Cape Vogel</p>
+    <a href="contact.html" class="btn">Contact Us</a>
+  </div>
+</section>
+
+<!-- Subfooter -->
+<section class="subfooter">
+  <div class="container subfooter-grid">
+
+    <!-- LEFT -->
+    <div class="subfooter-col">
+      <h2 class="logo">Cape Vogel</h2>
+      <p>
+        Protecting our people, land, and sea through community-led conservation
+        and sustainable development.
+      </p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="subfooter-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programmes.html">Programmes</a></li>
+      </ul>
+    </div>
+
+    <!-- PROGRAMS -->
+    <div class="subfooter-col">
+      <h3>Our Focus</h3>
+      <ul>
+        <li>Reforestation</li>
+        <li>Mangrove Protection</li>
+        <li>Coral Rehabilitation</li>
+        <li>Community Development</li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="subfooter-col">
+      <h3>Contact</h3>
+      <p>Cape Vogel Peninsula</p>
+      <p>Papua New Guinea</p>
+      <p><a href="mailto:info@capevogel.org">info@capevogel.org</a></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Cape Vogel Conservation Initiative</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js" defer></script>
+<script src="gallery.js"></script>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img">
+</div>
+
+</body>
+</html>
