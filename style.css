@@ -171,11 +171,6 @@ header.scrolled {
   inset: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .hero-content {
   position: relative;
   z-index: 2;
